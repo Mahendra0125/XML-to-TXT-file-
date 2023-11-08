@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Barricades']
+
+roboflow:
+  workspace: sid-klalj
+  project: bt-sadni
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sid-klalj/bt-sadni/dataset/2
